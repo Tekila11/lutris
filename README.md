@@ -23,10 +23,12 @@ First, enable multilib (32-bit support).
 
 To enable multilib repository, uncomment the [multilib] section in /etc/pacman.conf
 
-`/etc/pacman.conf`
+```bash
+/etc/pacman.conf
 --------------------------------------------------------------------------------------
 [multilib]
 Include = /etc/pacman.d/mirrorlist
+```
 
 Then upgrade the system ```bash sudo pacman -Syu```.
 **NVIDIA:**
