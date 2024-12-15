@@ -16,7 +16,8 @@ and use it as a custom runner.
 ```bash
   git clone https://github.com/GloriousEggroll/proton-ge-custom.git
 ```
-Extrat it to this directory : ```~/.local/share/lutris/runners/wine```
+Extrat it to this directory : ```~/.local/share/lutris/runners/wine```.
+
 **Step 3:**
 Installing GPU Driver.
 First, enable multilib (32-bit support).
