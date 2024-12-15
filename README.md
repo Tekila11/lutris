@@ -6,6 +6,7 @@ installing Lutris
 ```bash
   sudo pacman -S lutris
   sudo pacman -S winetricks
+  sudo pacman -S wine-mono
 ```
 
 **Step 2:**
