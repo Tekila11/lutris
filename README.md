@@ -45,9 +45,7 @@ To install it, execute the following command:
 Info: To make sure you're running proprietary NVIDIA drivers on Manjaro you should run 
 ```bash 
 sudo mhwd -a pci nonfree 0300
-```
 
-```bash
 sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
 ```
 
