@@ -1,5 +1,5 @@
 # lutris
-Lutris conf
+Lutris conf for **Arch**
 
 **Step 1:**
 installing Lutris 
