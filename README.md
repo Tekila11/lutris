@@ -5,6 +5,7 @@ Lutris conf
 installing Lutris 
 ```bash
   sudo pacman -S lutris
+  sudo pacman -S winetricks
 ```
 
 **Step 2:**
