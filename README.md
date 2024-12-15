@@ -1,0 +1,2 @@
+# lutris
+Lutris conf
