@@ -4,19 +4,39 @@ Lutris conf for **Arch**
 **Step 1:**
 installing Lutris 
 ```bash
-  sudo pacman -S lutris
-  sudo pacman -S winetricks
-  sudo pacman -S wine-mono
+  sudo pacman -S wine lutris winetricks wine-mono
 ```
 
 **Step 2:**
-installing wine ge.
+installing **wine** ge.
 download protone ge latest by cloning it from [github](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-21)
 and use it as a custom runner.
 ```bash
   git clone https://github.com/GloriousEggroll/proton-ge-custom.git
 ```
 Extrat it to this directory : ```~/.local/share/lutris/runners/wine```.
+
+**Install Dependencies**
+
+Lutris requires some dependencies for optimal performance. Install the following:
+
+```bash
+sudo pacman -S wine winetricks lib32-vulkan-icd-loader lib32-nvidia-utils 
+```
+
+For **AMD** or **Intel GPUs**:
+
+```bash
+sudo pacman -S lib32-vulkan-radeon lib32-vulkan-intel
+```
+
+3. Install Game Runtimes (Optional)
+
+For compatibility with Windows games, you may need these:
+
+```bash
+sudo pacman -S dxvk-bin vkd3d
+```
 
 **Step 3:**
 Installing GPU Driver.
